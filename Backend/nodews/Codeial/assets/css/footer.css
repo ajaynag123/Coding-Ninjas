@@ -1,0 +1,6 @@
+#footer {
+  display: flex;
+  justify-content: left; }
+  #footer #item {
+    margin-left: 20px;
+    margin-right: 20px; }

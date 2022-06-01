@@ -1,0 +1,19 @@
+#header {
+  background-color: lightblue;
+  #heading{
+    color: azure;
+    font-size: 50px;
+  }
+  #signinup-button {
+    display: flex;
+    justify-content: end;
+    #sign-in {
+      margin-right: 20px;
+      margin-bottom: 20px;
+      text-emphasis: bold;
+    }
+    #sign-up {
+      margin-right: 10px;
+    }
+  }
+}
