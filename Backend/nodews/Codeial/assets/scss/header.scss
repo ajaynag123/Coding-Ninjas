@@ -1,19 +1,35 @@
-#header {
-  background-color: lightblue;
-  #heading{
-    color: azure;
-    font-size: 50px;
-  }
-  #signinup-button {
-    display: flex;
-    justify-content: end;
-    #sign-in {
-      margin-right: 20px;
-      margin-bottom: 20px;
-      text-emphasis: bold;
+#layout-header{
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+        background: #2196f3;
+        color: white;
+        box-shadow: 1px 1px 1px 1px lightgrey;
+
+        .mini-logo{
+            p{
+                margin: 5px;
+                font-size: 1.4rem;
+                font-weight: bold;
+            }
+        }
+
+        .auth-links{
+            ul{
+                margin: 5% 5px;
+                display: flex;
+                list-style: none;
+                li{
+                    margin-right: 10px;
+                }
+            }
+        }
+
+        a{
+            color: white;
+            text-decoration: none;
+        }
+
     }
-    #sign-up {
-      margin-right: 10px;
-    }
-  }
 }
